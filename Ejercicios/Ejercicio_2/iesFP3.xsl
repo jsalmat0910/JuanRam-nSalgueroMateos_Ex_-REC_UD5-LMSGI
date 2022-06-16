@@ -7,7 +7,7 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
         <xsl:for-each select="ies/ciclos/ciclo">
             <p>
                 <li>
-                <xsl:text></xsl:text><xsl:value-of select="nombre"/> ( <xsl:value-of select="grado"/> )<xsl:text></xsl:text>
+                <xsl:text>&#xA;</xsl:text><xsl:value-of select="nombre"/> ( <xsl:value-of select="grado"/> )<xsl:text>&#xA;</xsl:text>
                 </li>
             </p>
         </xsl:for-each>
